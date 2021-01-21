@@ -53,7 +53,7 @@ function Detail() {
   const removeFromCart = () => {
     dispatch({
       type: REMOVE_FROM_CART,
-      id: currentProduct._id
+      _id: currentProduct._id
     });
   };
 
